@@ -47,7 +47,7 @@ public class DNAPatternCounter {
         // Example DNA sequence and parameters
         String dnaSequence = "ACGTACGTACGTACGAA";
         k = 2;
-        threshold = 1;
+        threshold = 0;
 
         // Add DNA sequence to linked list
         for (char c : dnaSequence.toCharArray()) {
