@@ -9,12 +9,11 @@ public class DNAPatternVisualizer extends JPanel {
     private static final int WIDTH = 1000;
     private static final int HEIGHT = 800;
     private static final int BASE_PAIR_SPACING = 30;
-    private static final int HELIX_RADIUS = 50; // Define HELIX_RADIUS constant
-    private static final int NUM_TURNS = 20;
+    private static final int HELIX_RADIUS = 50;
 
-    private static String dnaSequence = "ACGTACGTACGTACG"; // Default DNA sequence
-    private static int k = 3; // Default pattern length
-    private static int threshold = 2; // Default threshold
+    private static String dnaSequence = "ACGTACGTACGTACG";
+    private static int k = 3;
+    private static int threshold = 2;
     private static JTextField dnaInput;
     private static JTextField kInput;
     private static JTextField thresholdInput;
@@ -73,10 +72,9 @@ public class DNAPatternVisualizer extends JPanel {
             linkedList.add(c);
         }
 
-        DNAPatternCounter patternCounter = new DNAPatternCounter();
-        patternCounter.countPatterns(linkedList.getHead());
+        DNAPatternCounter.countPatterns(linkedList.getHead(), k);
+        patternMap = DNAPatternCounter.getPatternMap();
 
-        patternMap = patternCounter.getPatternMap();
         resultArea.setText("");
 
         for (Map.Entry<String, Integer> entry : patternMap.entrySet()) {

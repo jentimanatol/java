@@ -1,15 +1,13 @@
 import java.util.HashMap;
 
 public class DNAPatternCounter {
-    private static LinkedList linkedList = new LinkedList();
     private static HashMap<String, Integer> patternMap = new HashMap<>();
     private static int k; // Pattern length
-    private static int threshold; // Threshold count
 
-    public static void countPatterns(Node head) {
+    public static void countPatterns(Node head, int k) {
+        patternMap.clear(); // Reset pattern map
         Node current = head;
         StringBuilder currentPattern = new StringBuilder();
-        Node patternStartNode = current;
 
         while (current != null) {
             // Add current element to the pattern
@@ -18,7 +16,6 @@ public class DNAPatternCounter {
             // If pattern length exceeds k, remove the first character
             if (currentPattern.length() > k) {
                 currentPattern.deleteCharAt(0);
-                patternStartNode = patternStartNode.next;
             }
 
             // If pattern length is k, process the pattern
