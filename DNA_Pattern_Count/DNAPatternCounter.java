@@ -1,9 +1,9 @@
 
-
+// Anatolie Jentimir  BHCC Competition 
 
 //General Idea of code in java 
 
-//save the DNA as a linked_list (provided by user)                                        ->exemple :  ACGTACGTACGTACG
+//save the DNA as a linked_list (provided by user)                                        ->exemple :  ACGTACGTACGTACGAA
 
 //make a loop until end of the linked_list     
 
@@ -45,9 +45,9 @@ public class DNAPatternCounter {
 
     public static void main(String[] args) {
         // Example DNA sequence and parameters
-        String dnaSequence = "ACGTACGTACGTACG";
-        k = 3;
-        threshold = 2;
+        String dnaSequence = "ACGTACGTACGTACGAA";
+        k = 2;
+        threshold = 1;
 
         // Add DNA sequence to linked list
         for (char c : dnaSequence.toCharArray()) {
@@ -89,7 +89,7 @@ public class DNAPatternCounter {
     private static void printPatterns() {
         for (String pattern : patternMap.keySet()) {
             if (patternMap.get(pattern) > threshold) {
-                System.out.println(pattern + " : " + patternMap.get(pattern) + " times");
+                System.out.println("Pattern DNA " + pattern + " : " + patternMap.get(pattern) + " times");
             }
         }
     }
