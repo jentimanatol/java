@@ -1,0 +1,68 @@
+/* *****************************************
+ *  Author : Anatolie Jentimirn   
+ *  Created On : Fri Jun 21 2024
+ *  File : hgjfhg.java
+ *  Description: 
+ * ******************************************/
+
+ import org.jfree.chart.ChartFactory;
+ import org.jfree.chart.ChartPanel;
+ import org.jfree.chart.JFreeChart;
+ import org.jfree.data.category.DefaultCategoryDataset;
+ import javax.swing.JFrame;
+ 
+ public class HotChocolateMarket {
+ 
+     private double demand;
+     private double supply;
+     private double price;
+ 
+     public HotChocolateMarket(double initialDemand, double initialSupply, double initialPrice) {
+         this.demand = initialDemand;
+         this.supply = initialSupply;
+         this.price = initialPrice;
+     }
+ 
+     public void winterStarts() {
+         // Assuming that demand increases by 20% when winter starts
+         this.demand *= 1.20;
+         calculateEquilibrium();
+     }
+ 
+     private void calculateEquilibrium() {
+         // For simplicity, let's assume that the equilibrium price is determined by the ratio of supply to demand
+         this.price = this.supply / this.demand;
+     }
+ 
+     public void createChart() {
+         // Create a dataset
+         DefaultCategoryDataset dataset = new DefaultCategoryDataset();
+         dataset.addValue(this.demand, "Demand", "Winter Start");
+         dataset.addValue(this.supply, "Supply", "Winter Start");
+ 
+         // Create a chart
+         JFreeChart chart = ChartFactory.createBarChart(
+             "Hot Chocolate Market",
+             "Time",
+             "Quantity",
+             dataset
+         );
+ 
+         // Create a panel and add the chart to it
+         ChartPanel panel = new ChartPanel(chart);
+ 
+         // Create a frame and add the panel to it
+         JFrame frame = new JFrame();
+         frame.setContentPane(panel);
+         frame.setSize(800, 600);
+         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+         frame.setVisible(true);
+     }
+ 
+     public static void main(String[] args) {
+         HotChocolateMarket market = new HotChocolateMarket(100, 100, 1);
+         market.winterStarts();
+         market.createChart();
+     }
+ }
+ 

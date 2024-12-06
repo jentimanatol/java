@@ -1,0 +1,69 @@
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.ChartPanel;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.data.xy.XYSeries;
+import org.jfree.data.xy.XYSeriesCollection;
+import org.jfree.ui.ApplicationFrame;
+import org.jfree.ui.RefineryUtilities;
+
+public class MarketChart extends ApplicationFrame {
+
+    public MarketChart(String applicationTitle , String chartTitle ) {
+        super(applicationTitle);
+        JFreeChart lineChart = ChartFactory.createXYLineChart(
+                chartTitle,
+                "Quantity","Price",
+                createDataset(),
+                PlotOrientation.VERTICAL,
+                true,true,false);
+
+        ChartPanel chartPanel = new ChartPanel(lineChart);
+        chartPanel.setPreferredSize(new java.awt.Dimension(560 , 367));
+        setContentPane(chartPanel);
+    }
+
+    private XYSeriesCollection createDataset() {
+        XYSeriesCollection dataset = new XYSeriesCollection();
+
+        XYSeries series1 = new XYSeries("Supply");
+        XYSeries series2 = new XYSeries("Demand");
+        XYSeries series3 = new XYSeries("Market Price");
+        XYSeries series4 = new XYSeries(" Below Market Price");
+        XYSeries series5 = new XYSeries(" Over Market Price");
+
+        // Assume the market price is $20
+        double marketPrice = 50.0;
+        double marketPriceBelow = 30.0;
+        double marketPriceOver = 70.0;
+
+        // Add data points to the series
+        for (int i = 1; i <= 100; i++) {
+            double supplyPrice = i;  
+            double demandPrice = 100 - i;  
+            series1.add(i, supplyPrice);
+            series2.add(i, demandPrice);
+            series3.add(i, marketPrice);
+            series4.add(i, marketPriceBelow);
+            series5.add(i, marketPriceOver);
+        }
+
+        dataset.addSeries(series1);
+        dataset.addSeries(series2);
+        dataset.addSeries(series3);
+        dataset.addSeries(series4);
+        dataset.addSeries(series5);
+
+        return dataset;
+    }
+
+    public static void main(String[] args) {
+        MarketChart chart = new MarketChart(
+                "Economics Analysis Anatolie Jentimir" ,
+                "Supply, Demand, and Market Price in a Perfectly Competitive Market");
+
+        chart.pack();
+        RefineryUtilities.centerFrameOnScreen(chart);
+        chart.setVisible(true);
+    }
+}
