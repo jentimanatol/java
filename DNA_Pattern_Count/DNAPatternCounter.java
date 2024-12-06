@@ -34,6 +34,7 @@
 // print patern_Map_list   : and time apeared in the  DNA linked_list (provided by user)   
 
 
+
 import java.util.HashMap;
 
 public class DNAPatternCounter {
