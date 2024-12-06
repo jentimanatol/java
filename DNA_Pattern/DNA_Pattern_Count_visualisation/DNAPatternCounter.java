@@ -34,7 +34,6 @@
 // print patern_Map_list   : and time apeared in the  DNA linked_list (provided by user)   
 
 
-
 import java.util.HashMap;
 
 public class DNAPatternCounter {
@@ -43,25 +42,7 @@ public class DNAPatternCounter {
     private static int k; // Pattern length
     private static int threshold; // Threshold count
 
-    public static void main(String[] args) {
-        // Example DNA sequence and parameters
-        String dnaSequence = "ACGTACGTACGTACGAA";
-        k = 3;
-        threshold = 2;
-
-        // Add DNA sequence to linked list
-        for (char c : dnaSequence.toCharArray()) {
-            linkedList.add(c);
-        }
-
-        // Count patterns in the linked list
-        countPatterns(linkedList.getHead());
-
-        // Print patterns that meet the threshold
-        printPatterns();
-    }
-
-    private static void countPatterns(Node head) {
+    public static void countPatterns(Node head) {
         Node current = head;
         StringBuilder currentPattern = new StringBuilder();
         Node patternStartNode = current;
@@ -86,11 +67,7 @@ public class DNAPatternCounter {
         }
     }
 
-    private static void printPatterns() {
-        for (String pattern : patternMap.keySet()) {
-           // if (patternMap.get(pattern) > threshold) {
-                System.out.println("Pattern DNA " + pattern + " : " + patternMap.get(pattern) + " times");
-           // }
-        }
+    public static HashMap<String, Integer> getPatternMap() {
+        return patternMap;
     }
 }
