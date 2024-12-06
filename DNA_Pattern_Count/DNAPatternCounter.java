@@ -46,8 +46,8 @@ public class DNAPatternCounter {
     public static void main(String[] args) {
         // Example DNA sequence and parameters
         String dnaSequence = "ACGTACGTACGTACGAA";
-        k = 2;
-        threshold = 0;
+        k = 3;
+        threshold = 2;
 
         // Add DNA sequence to linked list
         for (char c : dnaSequence.toCharArray()) {
@@ -88,9 +88,9 @@ public class DNAPatternCounter {
 
     private static void printPatterns() {
         for (String pattern : patternMap.keySet()) {
-            if (patternMap.get(pattern) > threshold) {
+           // if (patternMap.get(pattern) > threshold) {
                 System.out.println("Pattern DNA " + pattern + " : " + patternMap.get(pattern) + " times");
-            }
+           // }
         }
     }
 }
