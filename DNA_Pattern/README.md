@@ -59,6 +59,10 @@ The DNA Pattern Visualizer is a Java application that analyzes DNA sequences, id
 
 
 
+
+
+
+
 # DNA Pattern Counter
 
 ## Introduction
@@ -143,8 +147,6 @@ Feel free to fork this repository and contribute by submitting a pull request. L
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
 
 
 
