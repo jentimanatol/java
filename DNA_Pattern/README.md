@@ -57,11 +57,13 @@ The DNA Pattern Visualizer is a Java application that analyzes DNA sequences, id
 
 
 
-## Screenshot ![DNA Pattern Diagram](https://github.com/jentimanatol/java/blob/42d01b83bd17b13dd8c92fdd7a25bb1dd3330649/DNA_Pattern/DNA_Pattern_Count/Screenshot/Untitled%20Diagram.drawio.png) 
+
 ### Diagram Description The diagram illustrates the flow and structure of the DNA Pattern Counter application: 
 - **Node and LinkedList**: Represents the DNA sequence as interconnected nodes, each holding a nucleotide. 
 - **Pattern Analysis**: Shows how the sequence is traversed to identify recurring patterns. 
 - **HashMap**: Depicts the storage of patterns and their counts for efficient retrieval and filtering based on the
+![DNA Pattern Diagram](https://github.com/jentimanatol/java/blob/42d01b83bd17b13dd8c92fdd7a25bb1dd3330649/DNA_Pattern/DNA_Pattern_Count/Screenshot/Untitled%20Diagram.drawio.png) 
+
 
 
 
