@@ -23,7 +23,7 @@ The DNA Pattern Visualizer is a Java application that analyzes DNA sequences, id
 - Visualize patterns that meet the threshold criteria.
 
 ## Screenshot
-![DNA Pattern Visualization](Screenshots/DNA_Patern_Visualisation.jpg)
+![DNA Pattern Visualization](DNA_Pattern_Count_visualisation/Screenshot/DNA_Patern_Visualisation.jpg)
 
 ## How to Use
 1. **DNA Sequence Input**: Enter the DNA sequence you want to analyze.
