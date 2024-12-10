@@ -1,12 +1,16 @@
 # DNA Pattern Visualizer
 
 ## Introduction
-The DNA Pattern Visualizer is a Java application that analyzes DNA sequences, identifies recurring patterns, and visualizes these patterns. This project provides an educational tool for understanding DNA sequences and their patterns using a simple graphical user interface.
+The DNA Pattern Counter is a Java application designed to analyze DNA sequences, identify recurring patterns, and count their occurrences. This tool can be highly beneficial for educational purposes and for those interested in bioinformatics.
 
 ## Main Features
-### LinkedList and Node Classes
+
 - **Node**: Represents a single nucleotide in the DNA sequence.
 - **LinkedList**: Manages the sequence of nucleotides, providing methods to add nucleotides and retrieve the head of the list.
+- **DNAPatternCounter Class**: This class contains methods to count patterns within the linked list and print those that meet a specified threshold.
+- **Efficient Data Structures**: Uses HashMap for storing and counting DNA patterns due to its average O(1) time complexity for insertions and lookups.
+
+
 
 ### DNAPatternCounter Class
 - **countPatterns**: Analyzes the DNA sequence stored in a linked list to identify recurring patterns of length `k`.
@@ -64,19 +68,6 @@ The diagram illustrates the flow and structure of the DNA Pattern Counter applic
 ![DNA Pattern Diagram](https://github.com/jentimanatol/java/blob/42d01b83bd17b13dd8c92fdd7a25bb1dd3330649/DNA_Pattern/DNA_Pattern_Count/Screenshot/Untitled%20Diagram.drawio.png)
 
 
-
-
-
-
-# DNA Pattern Counter
-
-## Introduction
-The DNA Pattern Counter is a Java application designed to analyze DNA sequences, identify recurring patterns, and count their occurrences. This tool can be highly beneficial for educational purposes and for those interested in bioinformatics.
-
-## Main Features
-- **Node and LinkedList Classes**: These classes represent the DNA sequence as a linked list, allowing for efficient traversal and manipulation of nucleotides.
-- **DNAPatternCounter Class**: This class contains methods to count patterns within the linked list and print those that meet a specified threshold.
-- **Efficient Data Structures**: Uses HashMap for storing and counting DNA patterns due to its average O(1) time complexity for insertions and lookups.
 
 ## How It Works
 
@@ -186,43 +177,6 @@ The DNA Pattern Counter is a Java application designed to analyze DNA sequences,
     - **Efficiency**: Offers average O(1) time complexity for insertions and lookups, ideal for counting and storing patterns.
     - **Easy Access**: Enables easy retrieval of pattern counts, essential for filtering and printing patterns based on the threshold.
     - **Flexibility**: Handles different types of keys and values, making it suitable for storing patterns and their corresponding counts.
-
-## Example Usage
-1. **Input DNA Sequence**: `ACGTACGTACGTACGAA`
-2. **Pattern Length (k)**: `3`
-3. **Threshold**: `2`
-4. **Output**: The application will display patterns that appear at least 2 times, such as `ACG`, `CGT`, etc.
-
-## Screenshot
-![DNA Pattern Visualization](DNA_Pattern_Count_visualisation/Screenshot/DNA_Patern_Visualisation.jpg)
-
-### Diagram Description
-The diagram illustrates the flow and structure of the DNA Pattern Counter application: 
-- **Node and LinkedList**: Represents the DNA sequence as interconnected nodes, each holding a nucleotide. 
-- **Pattern Analysis**: Shows how the sequence is traversed to identify recurring patterns. 
-- **HashMap**: Depicts the storage of patterns and their counts for efficient retrieval and filtering based on the threshold.
-
-![DNA Pattern Diagram](https://github.com/jentimanatol/java/blob/42d01b83bd17b13dd8c92fdd7a25bb1dd3330649/DNA_Pattern/DNA_Pattern_Count/Screenshot/Untitled%20Diagram.drawio.png)
-
-## Technologies Used
-- **Java**: The primary programming language used for building the application.
-- **HashMap**: For storing and counting DNA patterns.
-- **LinkedList**: For managing the sequence of nucleotides efficiently.
-
-## Variables and Data Structures
-### Variables
-- **dnaSequence**: Stores the input DNA sequence provided by the user.
-- **k**: The length of the pattern to search for in the DNA sequence.
-- **threshold**: The minimum number of occurrences for a pattern to be displayed.
-
-### Data Structures
-- **HashMap**: Used to store patterns and their counts. The key is the pattern (String) and the value is the count (Integer). HashMap is chosen because it provides efficient O(1) average time complexity for insertions and lookups, making it ideal for counting and storing patterns.
-- **LinkedList**: Used to store the sequence of
-
-
-
-
-
 
 
 ### Rationale for Using LinkedList and HashMap
