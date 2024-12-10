@@ -1,45 +1,30 @@
-# DNA Pattern Visualizer
+# DNA Pattern Counter
 
 ## Introduction
-The DNA Pattern Visualizer is a Java application that analyzes DNA sequences, identifies recurring patterns, and visualizes these patterns. This project provides an educational tool for understanding DNA sequences and their patterns using a simple graphical user interface.
+The DNA Pattern Counter is a Java application designed to analyze DNA sequences, identify recurring patterns, and count their occurrences. This tool can be highly beneficial for educational purposes and for those interested in bioinformatics.
 
 ## Main Features
-### LinkedList and Node Classes
-- **Node**: Represents a single nucleotide in the DNA sequence.
-- **LinkedList**: Manages the sequence of nucleotides, providing methods to add nucleotides and retrieve the head of the list.
+- **Node and LinkedList Classes**: These classes represent the DNA sequence as a linked list, allowing for efficient traversal and manipulation of nucleotides.
+- **DNAPatternCounter Class**: This class contains methods to count patterns within the linked list and print those that meet a specified threshold.
+- **Efficient Data Structures**: Uses HashMap for storing and counting DNA patterns due to its average O(1) time complexity for insertions and lookups.
 
-### DNAPatternCounter Class
-- **countPatterns**: Analyzes the DNA sequence stored in a linked list to identify recurring patterns of length `k`.
-- **getPatternMap**: Returns a map of identified patterns and their counts.
-
-### DNAPatternVisualizer Class
-- **Graphical Interface**: Provides an interface for inputting DNA sequences, pattern length (`k`), and a threshold value to filter patterns.
-- **Visualization**: Displays a graphical representation of the DNA helix and highlights patterns that occur more frequently than the specified threshold.
-
-### General Idea of the Code
-- Save the DNA sequence as a linked list.
-- Iterate through the linked list to identify patterns of length `k`.
-- Count occurrences of each pattern and store them in a map.
-- Visualize patterns that meet the threshold criteria.
-
-## Screenshot
-![DNA Pattern Visualization](DNA_Pattern_Count_visualisation/Screenshot/DNA_Patern_Visualisation.jpg)
-
-## How to Use
-1. **DNA Sequence Input**: Enter the DNA sequence you want to analyze.
-2. **Pattern Length (k)**: Specify the length of the patterns you are interested in.
-3. **Threshold**: Set the threshold value to filter patterns that occur frequently.
-4. **Visualize**: Click the "Visualize Patterns" button to see the patterns and their occurrences in the DNA sequence.
+## How It Works
+1. **Save the DNA Sequence**: The DNA sequence is stored as a linked list.
+2. **Pattern Counting**: The application iterates through the linked list to identify patterns of a specified length (k).
+3. **Pattern Storage**: Patterns and their counts are stored in a HashMap.
+4. **Threshold Filtering**: Patterns that meet or exceed a specified threshold are printed.
 
 ## Example Usage
-1. **Input DNA Sequence**: `ACGTACGTACGTACG`
+1. **Input DNA Sequence**: `ACGTACGTACGTACGAA`
 2. **Pattern Length (k)**: `3`
 3. **Threshold**: `2`
 4. **Output**: The application will display patterns that appear at least 2 times, such as `ACG`, `CGT`, etc.
 
+## Screenshot
+![DNA Pattern Diagram](https://github.com/jentimanatol/java/blob/42d01b83bd17b13dd8c92fdd7a25bb1dd3330649/DNA_Pattern/DNA_Pattern_Count/Screenshot/Untitled%20Diagram.drawio.png)
+
 ## Technologies Used
 - **Java**: The primary programming language used for building the application.
-- **Swing**: For creating the graphical user interface.
 - **HashMap**: For storing and counting DNA patterns.
 - **LinkedList**: For managing the sequence of nucleotides efficiently.
 
@@ -52,14 +37,14 @@ The DNA Pattern Visualizer is a Java application that analyzes DNA sequences, id
 - **resultArea**: Displays the results of the pattern analysis.
 
 ### Data Structures
-- **HashMap**: Used to store patterns and their counts. The key is the pattern (String) and the value is the count (Integer). HashMap provides efficient O(1) average time complexity for insertions and lookups, making it suitable for counting and storing patterns.
-- **LinkedList**: Used to store the sequence of nucleotides. LinkedList allows for efficient traversal and manipulation of the sequence. Each nucleotide is represented as a node, and nodes are linked together to form the sequence.
+- **HashMap**: Used to store patterns and their counts. The key is the pattern (String) and the value is the count (Integer). HashMap is chosen because it provides efficient O(1) average time complexity for insertions and lookups, making it ideal for counting and storing patterns.
+- **LinkedList**: Used to store the sequence of nucleotides. LinkedList allows for efficient traversal and manipulation of the sequence. Each nucleotide is represented as a node, and nodes are linked together to form the sequence. The choice of LinkedList over arrays or other data structures is due to its dynamic nature, allowing easy insertion and deletion of elements.
 
 ## Getting Started
-1. Clone the repository: `git clone https://github.com/your-username/DNA-Pattern-Visualizer.git`
-2. Navigate to the project directory: `cd DNA-Pattern-Visualizer`
+1. Clone the repository: `git clone https://github.com/your-username/DNA-Pattern-Counter.git`
+2. Navigate to the project directory: `cd DNA-Pattern-Counter`
 3. Set up your Java development environment.
-4. Run the project to start the DNA Pattern Visualizer application.
+4. Run the project to start the DNA Pattern Counter application.
 
 ## Contributing
 Feel free to fork this repository and contribute by submitting a pull request. Let's build something great together!
