@@ -1,0 +1,42 @@
+You
+Sent by you:
+Graph of a production possibility frontier for country X showing watches daily production on the y-axis and MP3 player daily production on the x-axis. Point B is indicated at 10 MP3 players and 6 watches, point C at 15 MP3 players and 4 watches. Point G is outside of the curve at the point 15,7
+Consider the Production Possibility Frontier for country X producing 2 groups of goods, MP3 players and watches. The opportunity cost of moving from the combination of MP3 players and watches B to C is
+Question 27Select one:
+
+a.
+2 watches.
+
+b.
+5 MP3 players
+
+c.
+4 watches.
+
+d.
+15 MP3 players
+
+Copilot
+Sent by Copilot:
+To determine the opportunity cost of moving from point B to point C on the Production Possibility Frontier (PPF), we need to look at the change in the quantities of MP3 players and watches.
+
+At point B: 10 MP3 players and 6 watches
+At point C: 15 MP3 players and 4 watches
+Moving from point B to point C, the production of MP3 players increases by 5 units (from 10 to 15), and the production of watches decreases by 2 units (from 6 to 4).
+
+The opportunity cost of producing 5 more MP3 players is the 2 watches that are no longer produced.
+
+Therefore, the correct answer is:
+
+a. 2 watches
+
+If you have any more questions or need further assistance, feel free to ask!
+
+You
+Sent by you:
+show me in java code THE GRAph PLEASE .
+Copilot
+Sent by Copilot:
+Sure! Here’s a simple Java program using the JFreeChart library to create a graph of the Production Possibility Frontier (PPF) for country X, showing the daily production of MP3 players and watches.
+
+First, make sure you have the JFreeChart library added to your project. You can download it from JFreeChart.

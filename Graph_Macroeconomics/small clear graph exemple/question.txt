@@ -1,0 +1,13 @@
+Solution
+To represent the shift in demand due to considering social benefits, we need to draw a new demand curve to the right of the original demand curve (D1). This shift indicates an increased demand for self-driving cars at every price level.
+
+Steps:
+Identify the original demand curve (D1).
+Draw a new demand curve to the right of D1.
+Label the new demand curve D2 (or any other label you prefer).
+Expected Outcome:
+The graph will show two demand curves:
+
+D1: Represents the original demand based on private benefits.
+D2: Represents the demand when consumers consider social benefits.
+D2 will be to the right of D1, indicating a higher quantity demanded at every price level.

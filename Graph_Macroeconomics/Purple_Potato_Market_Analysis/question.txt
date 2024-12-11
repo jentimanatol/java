@@ -1,0 +1,42 @@
+You
+Sent by you:
+Consider the market for purple potatoes below and assume that a price ceiling of $30 is imposed by the government. Calculate the deadweight loss:
+Graph that shows the purple potato market. The x axis shows pounds of purple potatoes per day and the y axis shows the price per pound. There are three lines. One line is downward sloping, going through plotted points 1000, 70 and 1500,60 and 2000,50 and 2500,40 and 3000,30 and 3500,20 and 4000,10. Another line is upward sloping going through plotted points 1000,10 and 1500,20 and 2000,30 and 2500,40 and 3000,50 and 3500,60 and 4000,70. These two lines intersect at point 2500,40. Another gray line, which is the price ceiling, starts at 1000,30 and ends at point 4000,30.
+Question 40Select one:
+
+a.
+The deadweight loss is $2000.
+
+b.
+The deadweight loss is $2500.
+
+c.
+The deadweight loss is $5000.
+
+d.
+The deadweight loss is $10,000.
+
+Copilot
+Sent by Copilot:
+To calculate the deadweight loss (DWL) due to the price ceiling, we need to find the area of the triangle formed by the price ceiling, the demand curve, and the supply curve.
+
+Given:
+
+The equilibrium price is $40, and the equilibrium quantity is 2,500 pounds.
+The price ceiling is set at $30.
+At $30, the quantity demanded is 3,000 pounds, and the quantity supplied is 2,000 pounds.
+The deadweight loss triangle is formed between the quantities 2,000 and 3,000 pounds and the prices $30 and $40.
+
+The base of the triangle (difference in quantity) is: [ 3,000 - 2,000 = 1,000 \text{ pounds} ]
+
+The height of the triangle (difference in price) is: [ 40 - 30 = 10 \text{ dollars} ]
+
+The area of the triangle (DWL) is: [ \text{DWL} = \frac{1}{2} \times \text{base} \times \text{height} ] [ \text{DWL} = \frac{1}{2} \times 1,000 \times 10 ] [ \text{DWL} = 5,000 \text{ dollars} ]
+
+So, the deadweight loss is $5,000.
+
+The correct answer is:
+
+c. The deadweight loss is $5000.
+
+Is there anything else you’d like to discuss or any other questions you have?
