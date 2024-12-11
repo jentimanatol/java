@@ -124,3 +124,7 @@ To calculate the deadweight loss (DWL) due to the price ceiling, we need to find
 DWL = (1/2) * base * height
 DWL = (1/2) * 1,000 * 10
 DWL = 5,000 dollars
+
+
+
+1
