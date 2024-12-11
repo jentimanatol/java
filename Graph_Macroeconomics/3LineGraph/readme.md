@@ -60,8 +60,9 @@ To calculate the deadweight loss (DWL) due to the price ceiling, we need to find
 
 So, the deadweight loss is **$5,000**.
 
-## Conclusion
-The imposition of a price ceiling in the purple potato market leads to a deadweight loss of $5,000, indicating the efficiency loss due to the government intervention.
+
+
+
 
 # Purple Potato Market Analysis
 
