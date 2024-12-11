@@ -159,5 +159,3 @@ public class Huffman {
 
 The implementation of Huffman Coding in Java demonstrates its effectiveness in data compression. The priority queue and Huffman Tree provide a systematic way to manage and compress data efficiently.
 
-Feel free to reach out if you have any questions or need further clarification!
-
