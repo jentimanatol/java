@@ -1,6 +1,0 @@
-This code creates a simple graph with:
-
-AD (Aggregate Demand): Red line
-SRAS (Short-Run Aggregate Supply): Blue line
-LRAS (Long-Run Aggregate Supply): Green line
-AD2 (Inflationary Gap): Orange line

@@ -1,7 +1,0 @@
-The graph indicates the market equilibrium for pizzas.
-Part 2
-Suppose that consumer tastes for pizzas become more favorable. At the same time a new technology has been adopted in the industry that improves the production of pizzas. 
-​1.) Using the line drawing tool​, draw a new demand curve that is parallel to D Subscript 0 for pizzas that indicates a​ $2 equilibrium price increase. Label this D Subscript 1.
-​2.) Using the line drawing tool​, draw a new supply curve that is parallel to S Subscript 0 for pizzas that returns the equilibrium price to​ $14. Label this S Subscript 1.
-Part 3
-Carefully follow the instructions​ above, and only draw the required objects.  
