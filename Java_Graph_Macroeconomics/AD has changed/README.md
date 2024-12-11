@@ -28,7 +28,7 @@ This project involves analyzing a macroeconomic graph to understand the effects 
 - **Economic Variables**: Consider changes in price levels, real GDP, and employment levels.
 - **Economic Theories**: Apply relevant economic theories to analyze the short-run and long-run effects.
 
-
+![RealGDP](Screenshot/RealGDP.jpg)
 
 ## Project Code Description
 This project is a graphical representation of the macroeconomic concepts using Java and the JFreeChart library. The graph includes multiple economic curves such as Aggregate Demand (AD), Long-Run Aggregate Supply (LRAS), Short-Run Aggregate Supply (SRAS), and a shifted Aggregate Demand (AD1). The project visualizes the impact of changes in Aggregate Demand on Real GDP and Price Level.
