@@ -1,5 +1,5 @@
 # BUNKER HILL COMMUNITY COLLEGE
-## Syllabus
+
 ### CSC 285-01 Advanced Java Programming
 
 
@@ -11,7 +11,7 @@
 ### Course Description: CSC-285-01
 **Credits:** 3
 
-This course thoroughly examines many of the sophisticated features of the Java programming language, including interfaces, advanced graphics, some data structures, file I/O techniques, multithreading, advanced JDBC Servlets, and Java Server Pages. Students demonstrate their mastery of the material through a series of graded projects and examinations that challenge at an extremely high level. The course not only instructs in the preparation of applications and applets that focus on business-related topics but also teaches JAVA in an internet-based, integrative environment that utilizes cross-platform tools. Prerequisites: Grade of C or better in Java Programming (CIT239) and Precalculus (MAT197). For additional information and/or a course syllabus contact [CITDepartment@bhcc.mass.edu](mailto:CITDepartment@bhcc.mass.edu).
+This course thoroughly examines many of the sophisticated features of the Java programming language, including interfaces, advanced graphics, some data structures, file I/O techniques, multithreading, advanced JDBC Servlets, and Java Server Pages. Students demonstrate their mastery of the material through a series of graded projects and examinations that challenge at an extremely high level. The course not only instructs in the preparation of applications and applets that focus on business-related topics but also teaches JAVA in an internet-based, integrative environment that utilizes cross-platform tools. Prerequisites: Grade of C or better in Java Programming (CIT239) and Precalculus (MAT197). 
 
 ### Required Materials
 **Textbook(s)/Software:**
