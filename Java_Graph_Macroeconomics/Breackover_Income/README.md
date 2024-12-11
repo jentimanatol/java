@@ -60,4 +60,4 @@ Follow these instructions to complete the graph:
 
 ## Screenshot
 
-![Screenshot]()
+![Screenshot](Screenshot/ConsumptionFunctionGraph.jpg)
