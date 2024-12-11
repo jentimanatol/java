@@ -28,6 +28,7 @@ This project involves analyzing a macroeconomic graph to understand the effects 
 - **Economic Variables**: Consider changes in price levels, real GDP, and employment levels.
 - **Economic Theories**: Apply relevant economic theories to analyze the short-run and long-run effects.
 
+## Screenshot
 ![RealGDP](Screenshot/RealGDP.jpg)
 
 ## Project Code Description
