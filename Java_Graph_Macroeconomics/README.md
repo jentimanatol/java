@@ -63,6 +63,3 @@ Attendance at all in-class meetings is mandatory and will be taken at any time d
 
 All case studies must be submitted in word-processed format, free from spelling, grammar, and punctuation errors. No late assignments will be accepted. If you are not able to attend a class in which a written assignment is due, it is your responsibility to submit via email on the due date and submit a hard copy at the next scheduled class.
 
----
-
-Feel free to modify or expand upon this structure to fit your course's needs! 😊
