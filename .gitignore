@@ -1,0 +1,17 @@
+
+# Package Files #
+*.jar
+*.nar
+*.zip
+*.txt
+*.rar
+*.bat
+
+# Directories potentially 
+
+.vscode
+
+
+
+
+
