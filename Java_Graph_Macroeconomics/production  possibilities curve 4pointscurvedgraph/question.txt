@@ -1,0 +1,40 @@
+You
+Sent by you:
+In the accompanying graph construct a production  possibilities curve for a nation with the following maximum output combinations. 
+A
+B
+C
+D
+Food
+8
+7
+5
+0
+Video Games
+0
+8
+12
+18
+ 
+​1.) Using java generate a code to ​, plot the four output combinations from the table above.  Properly label each point.
+​2.) Using java generate a code to  the​ 4-point curved line drawing ​, draw a curve connecting these points. Label this curve​ 'PPC'.
+
+
+The shape of this outward bowed PPC is due to
+A.
+increased production efficiency.
+B.
+decreasing opportunity costs.
+C.
+constant opportunity costs.
+D.
+
+
+
+The shape of this outward bowed PPC is due to:
+
+D. increasing opportunity costs.
+
+This means that as you produce more of one good, you have to give up increasingly larger amounts of the other good.
+
+If you have any more questions or need further clarification, feel free to ask!

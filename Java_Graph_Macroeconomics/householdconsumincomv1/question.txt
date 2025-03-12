@@ -1,0 +1,45 @@
+Consider the following table for a​ household's consumption expenditures and disposable income. 
+Part 2
+Compute the average and marginal propensity to consume for each level of income and fill in the table. ​(Enter your responses rounded to two decimal​ places.)
+Disposable Income 
+Consumption
+APC
+MPC
+​$0
+​$225
+​-----
+​-----
+​$100
+​$300
+  
+3.00
+  
+0.75
+​$200
+​$375
+  
+1.88
+  
+0.75
+​$300
+​$450
+  
+1.5
+  
+0.75
+​$400
+​$525
+  
+1.31
+  
+0.75
+​$500
+​$600
+  
+1.2
+  
+0.75
+ 
+Part 3
+Using the line drawing​ tool, plot and label the consumption function on the figure to the right. 
+Carefully follow the instructions​ above, and only draw the required object. 

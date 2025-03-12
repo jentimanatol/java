@@ -1,0 +1,33 @@
+You
+Sent by you:
+Consider the market for DVDs shown in the graph at right. What will be the effect that the market event indicated below will have on this​ market?
+Market​ Event: New production technology.
+​1.) Using the line drawing​ tool, draw the appropriate shift in either the demand or supply curve that is the result of a market shock and label this​ 'New Line'. 
+​2.) Using the point drawing​ tool, plot the new equilibrium point and label this​ 'E'.
+Carefully follow the instructions​ above, and only draw the required objects. 
+.
+.
+.
+Question content area right
+Part 1
+Market for DVDs
+Quantity
+Price ($)
+S
+D
+A
+
+Copilot
+Sent by Copilot:
+Let’s analyze the effect of new production technology on the market for DVDs:
+
+New Production Technology: This typically increases the efficiency of production, leading to a decrease in production costs. As a result, the supply curve will shift to the right.
+Shift in Supply Curve: Using the line drawing tool, you would draw a new supply curve to the right of the original supply curve and label it as ‘New Line’.
+New Equilibrium Point: The new supply curve intersects the demand curve at a new point. Using the point drawing tool, you would plot this new equilibrium point and label it as ‘E’.
+Here’s a step-by-step guide:
+
+Draw the New Supply Curve: Shift the original supply curve (S) to the right and label it ‘New Line’.
+Plot the New Equilibrium Point: Identify where the new supply curve intersects the demand curve (D) and plot this point, labeling it ‘E’.
+This new equilibrium point will typically be at a lower price and a higher quantity compared to the original equilibrium, reflecting the increased supply due to the new production technology.
+
+If you have any more questions or need further clarification, feel free to ask!

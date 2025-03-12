@@ -1,0 +1,58 @@
+import javax.swing.JFrame;
+
+import org.jfree.chart.*;
+import org.jfree.chart.labels.XYItemLabelGenerator;
+import org.jfree.chart.plot.XYPlot;
+import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
+import org.jfree.data.xy.XYDataset;
+import org.jfree.data.xy.XYSeries;
+import org.jfree.data.xy.XYSeriesCollection;
+
+public class Graph {
+    public static void main(String[] args) {
+        // Create dataset
+        XYSeries series = new XYSeries("Data");
+        series.add(1.0, 3.0); // Add data point (1.0, 3.0)
+        series.add(2.0, 2.0); // Add data point (2.0, 2.0)
+        XYDataset dataset = new XYSeriesCollection(series);
+
+        // Create chart
+        JFreeChart chart = ChartFactory.createScatterPlot(
+                "Hammers vs. Horseshoes", // Chart title
+                "Horseshoes", // X-Axis Label
+                "Hammers", // Y-Axis Label
+                dataset
+        );
+
+        // Create custom label generator
+        XYItemLabelGenerator labelGenerator = new XYItemLabelGenerator() {
+            @Override
+            public String generateLabel(XYDataset dataset, int series, int item) {
+                double x = dataset.getXValue(series, item);
+                double y = dataset.getYValue(series, item);
+                if (x == 1.0 && y == 3.0) {
+                    return "E"; // Label point (1.0, 3.0) as "E"
+                } else if (x == 2.0 && y == 2.0) {
+                    return "I"; // Label point (2.0, 2.0) as "I"
+                } else {
+                    return ""; // Don't label other points
+                }
+            }
+        };
+
+        // Set label generator
+        XYPlot plot = chart.getXYPlot();
+        XYLineAndShapeRenderer renderer = new XYLineAndShapeRenderer();
+        renderer.setBaseItemLabelGenerator(labelGenerator);
+        renderer.setBaseItemLabelsVisible(true);
+        plot.setRenderer(renderer);
+
+        // Display chart
+        ChartPanel panel = new ChartPanel(chart);
+        JFrame frame = new JFrame();
+        frame.setContentPane(panel);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.setVisible(true);
+    }
+}

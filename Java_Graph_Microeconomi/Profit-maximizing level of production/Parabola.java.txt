@@ -1,0 +1,42 @@
+/* *****************************************
+ *  Author : Anatolie Jentimirn   
+ *  Created On : Sat Jun 22 2024
+ *  File : 5.java
+ *  Description: 
+ * ******************************************/
+
+ import java.awt.*;
+ import javax.swing.*;
+ 
+ public class Parabola extends JPanel {
+     private static final int WIDTH = 800;
+     private static final int HEIGHT = 600;
+     private static final double SCALE = 50;
+ 
+     @Override
+     protected void paintComponent(Graphics g) {
+         super.paintComponent(g);
+         g.translate(WIDTH / 2, HEIGHT / 2);
+ 
+         // Draw axes
+         g.drawLine(-WIDTH / 2, 0, WIDTH / 2, 0);
+         g.drawLine(0, -HEIGHT / 2, 0, HEIGHT / 2);
+ 
+         // Draw parabola (y = ax^2 + bx + c)
+         double a = 1.0, b = 0.0, c = 0.0;
+         for (int x = -WIDTH / 2; x < WIDTH / 2; x++) {
+             int y = (int) (SCALE * (a * Math.pow(x / SCALE, 2) + b * x / SCALE + c));
+             g.fillOval(x, -y, 2, 2);
+         }
+     }
+ 
+     public static void main(String[] args) {
+         JFrame frame = new JFrame();
+         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+         frame.setSize(WIDTH, HEIGHT);
+         frame.setLocationRelativeTo(null);
+         frame.add(new Parabola());
+         frame.setVisible(true);
+     }
+ }
+ 
